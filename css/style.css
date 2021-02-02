@@ -59,3 +59,64 @@ ol {
   list-style-type: none;
 }
 /* end reset */
+
+.container {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* start Logo */
+.logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 150rem;
+}
+/* end Logo */
+
+/* start Header */
+
+.backhome {
+  background-image: url(../img/home.png);
+  background-position: top;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.headname {
+  font-family: "Mr De Haviland", cursive;
+  font-weight: 400;
+  font-size: 7rem;
+  display: block;
+  margin: 5rem 1rem;
+}
+.headocup {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  display: block;
+}
+
+header {
+  width: 90rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+header ul {
+  text-align: center;
+}
+
+header li {
+  display: inline;
+}
+
+/* end header */

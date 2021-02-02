@@ -1,0 +1,68 @@
+/* start reset */
+html {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+input,
+input:focus,
+textarea,
+textarea:focus,
+select,
+select:focus {
+  box-shadow: unset;
+  outline: unset;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.list-inline {
+  display: flex;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+/* end reset */

@@ -79,15 +79,34 @@ header .container {
   align-items: center;
 }
 
-header ul {
-  text-align: center;
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.dropdown {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 10rem;
+  height: 7;
+  padding: 5px;
+  background-color: transparent;
+  transition: all 0.3s;
+  position: relative;
 }
 
-header li {
-  display: inline;
+.dropdown:hover {
+  background-color: thistle;
 }
 
-.backhome {
+.dropdown span {
+  font-size: 0.8rem;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+}
+.navbar a {
+  display: block;
+  margin: 0 0.5rem;
 }
 
 .headname {
@@ -115,9 +134,7 @@ body .home {
   background-attachment: fixed;
   min-height: 150rem;
 }
-.backhome .container .pagina1 {
-  margin-top: 14rem;
-}
+
 /* start Logo */
 .logo {
   background-image: url(../img/logo.png);

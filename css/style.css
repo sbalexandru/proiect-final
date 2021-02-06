@@ -60,31 +60,34 @@ ol {
 }
 /* end reset */
 
+/* start Header */
+header {
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 0.5rem 0;
+}
+
 .container {
   max-width: 120rem;
-  width: 100%;
+  padding: 0 1.5rem;
   margin: 0 auto;
 }
 
-/* start Logo */
-.logo {
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 150rem;
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-/* end Logo */
 
-/* start Header */
+header ul {
+  text-align: center;
+}
+
+header li {
+  display: inline;
+}
 
 .backhome {
-  background-image: url(../img/home.png);
-  background-position: top;
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
 }
 
 .headname {
@@ -101,22 +104,25 @@ ol {
   display: block;
 }
 
-header {
-  width: 90rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  margin: 0 auto;
-  border: 1px solid black;
-}
-
-header ul {
-  text-align: center;
-}
-
-header li {
-  display: inline;
-}
-
 /* end header */
+
+body .home {
+  background-image: url(../img/home.png);
+  background-position: top;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 150rem;
+}
+.backhome .container .pagina1 {
+  margin-top: 14rem;
+}
+/* start Logo */
+.logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 150rem;
+}
+/* end Logo */

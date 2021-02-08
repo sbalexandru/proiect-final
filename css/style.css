@@ -79,34 +79,12 @@ header .container {
   align-items: center;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-}
-.dropdown {
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 10rem;
-  height: 7;
-  padding: 5px;
-  background-color: transparent;
-  transition: all 0.3s;
-  position: relative;
+header .container .brend {
+  margin-left: 10rem;
 }
 
 .dropdown:hover {
   background-color: thistle;
-}
-
-.dropdown span {
-  font-size: 0.8rem;
-  top: 0;
-  right: 0;
-  border: 1px solid black;
-}
-.navbar a {
-  display: block;
-  margin: 0 0.5rem;
 }
 
 .headname {

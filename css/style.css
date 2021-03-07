@@ -131,10 +131,6 @@ body .home {
   min-height: 150rem;
 }
 
-footer .container1 {
-  font-size: 5rem;
-}
-
 /* start Grid */
 .parent {
   display: flex;
@@ -153,7 +149,6 @@ footer .container1 {
   width: 84px;
   height: 84px;
   margin: 1rem;
-  /* border: 1px solid black; */
   border-radius: 7px;
   margin-bottom: 1rem;
   box-shadow: 5px 10px 18px #888888;
@@ -225,6 +220,197 @@ footer .container1 {
 .parent .opt:hover {
   background-color: rgb(195, 25, 20);
 }
+
+.parent .noua {
+  background-color: rgb(0, 19, 19);
+}
+.parent .noua:hover {
+  background-color: rgb(231, 235, 28);
+}
+
+.parent .zece {
+  background-color: rgb(255, 0, 0);
+}
+.parent .zece:hover {
+  background-color: rgb(224, 218, 218);
+}
+
+.parent .unuUnu {
+  background-color: rgb(48, 245, 245);
+}
+.parent .unuUnu:hover {
+  background-color: rgb(2, 2, 2);
+}
+
+.parent .unuDoi {
+  background-color: rgb(38, 39, 39);
+}
+.parent .unuDoi:hover {
+  background-color: rgb(2, 126, 241);
+}
+
+.parent .unuTrei {
+  background-color: rgb(170, 86, 7);
+}
+.parent .unuTrei:hover {
+  background-color: rgb(61, 25, 23);
+}
+
+.parent .unuPatru {
+  background-color: rgb(56, 252, 7);
+}
+.parent .unuPatru:hover {
+  background-color: rgb(212, 235, 12);
+}
+
+.parent .unuCinci {
+  background-color: rgba(204, 48, 37, 0.226);
+}
+.parent .unuCinci:hover {
+  background-color: rgba(126, 189, 9, 0.397);
+}
+
+.parent .unuSase {
+  background-color: rgba(166, 243, 248, 0.705);
+}
+.parent .unuSase:hover {
+  background-color: rgba(36, 9, 189, 0.397);
+}
+
+.parent .unuSapte {
+  background-color: rgba(44, 37, 36, 0.226);
+}
+.parent .unuSapte:hover {
+  background-color: rgba(218, 105, 30, 0.397);
+}
+
+.parent .unuOpt {
+  background-color: rgb(158, 177, 106);
+}
+.parent .unuOpt:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.parent .unuNoua {
+  background-color: rgba(61, 63, 216, 0.979);
+}
+.parent .unuNoua:hover {
+  background-color: rgba(71, 71, 71, 0.397);
+}
+
+.parent .doiZero {
+  background-color: rgb(223, 252, 120);
+}
+.parent .doiZero:hover {
+  background-color: rgba(30, 218, 71, 0.842);
+}
+
+.parent .doiUnu {
+  background-color: rgb(22, 24, 18);
+}
+.parent .doiUnu:hover {
+  background-color: rgb(181, 182, 172);
+}
+
+.parent .doiDoi {
+  background-color: rgb(160, 120, 252);
+}
+.parent .doiDoi:hover {
+  background-color: rgba(190, 218, 30, 0.842);
+}
+
+.parent .doiTrei {
+  background-color: rgb(120, 252, 138);
+}
+.parent .doiTrei:hover {
+  background-color: rgb(150, 98, 98);
+}
+
+.parent .doiPatru {
+  background-color: rgba(3, 48, 66, 0.226);
+}
+.parent .doiPatru:hover {
+  background-color: rgba(20, 247, 255, 0.336);
+}
+
+.parent .doiCini {
+  background-color: rgb(120, 252, 208);
+}
+.parent .doiCini:hover {
+  background-color: rgba(35, 11, 247, 0.842);
+}
+
+.parent .doiSase {
+  background-color: rgb(252, 135, 120);
+}
+.parent .doiSase:hover {
+  background-color: rgba(30, 196, 218, 0.842);
+}
+
+.parent .doiSapte {
+  background-color: rgb(210, 214, 196);
+}
+.parent .doiSapte:hover {
+  background-color: rgba(226, 72, 0, 0.842);
+}
+
+.parent .doiOpt {
+  background-color: rgb(111, 112, 105);
+}
+.parent .doiOpt:hover {
+  background-color: rgba(32, 18, 228, 0.842);
+}
+
+.parent .doiNoua {
+  background-color: rgb(56, 61, 37);
+}
+.parent .doiNoua:hover {
+  background-color: rgba(0, 255, 55, 0.842);
+}
+
+.parent .treiZero {
+  background-color: rgb(255, 5, 5);
+}
+.parent .treiZero:hover {
+  background-color: rgba(0, 17, 255, 0.842);
+}
+
+.parent .treiUnu {
+  background-color: rgb(55, 172, 104);
+}
+.parent .treiUnu:hover {
+  background-color: rgba(255, 0, 212, 0.842);
+}
+
+.parent .treiDoi {
+  background-color: rgb(255, 5, 213);
+}
+.parent .treiDoi:hover {
+  background-color: rgba(0, 17, 255, 0.144);
+}
+
+/* End Grid */
+
+/* Start Footer */
+
+footer .container1 {
+  font-size: 2rem;
+  box-shadow: 0px -8px 21px -4px rgba(0, 0, 0, 0.43);
+
+  height: 17rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  background-color: rgba(76, 175, 80, 0.3);
+}
+
+footer .icoana {
+  border-radius: 50%;
+  width: 3.3rem;
+  background-color: aquamarine;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* End footer */
 
 /* start Logo */
 .logo {

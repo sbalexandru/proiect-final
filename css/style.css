@@ -445,12 +445,27 @@ footer .icoana {
   align-items: center;
   box-shadow: 5px 5px 10px #888888;
 }
-
 .contactLogo a {
   direction: unset;
   text-decoration: unset;
 }
 
 /* end Logo */
+/*Start Ceruza Rajzok*/
+.ceruza {
+  background-image: url("../img/exhibs.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  min-height: 140rem;
+}
+.ceruza .containerRajz {
+  height: 100rem;
+  width: 80rem;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 15rem;
+}
+
+/*End Ceruza Rajzok*/
 
 /*# sourceMappingURL=style.css.map */

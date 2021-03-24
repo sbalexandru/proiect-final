@@ -1,29 +1,28 @@
 /* start Logo */
 .logo {
-    background-image: url(../img/logo.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 150rem;
-    position: relative;
-  }
-  
-  .contactLogo {
-    position: fixed;
-    bottom: 10px;
-    left: 77%;
-    width: 10rem;
-    height: 3.5rem;
-    border: 1px solid black;
-    border-radius: 20px;
-    background-color: cadetblue;
-    font-size: 2rem;
-    text-align: center;
-    align-items: center;
-    box-shadow: 5px 5px 10px #888888;
-  }
-  .contactLogo a {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 150rem;
+  position: relative;
+}
+
+.contactLogo {
+  position: fixed;
+  bottom: 10px;
+  left: 77%;
+  width: 10rem;
+  height: 3.5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: cadetblue;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px #888888;
+  a {
     direction: unset;
     text-decoration: unset;
   }
-  /* end Logo */
-  
+}
+/* end Logo */

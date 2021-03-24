@@ -1,0 +1,23 @@
+@import "reset";
+@import "header";
+
+.container1 {
+  max-width: 120rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  margin-top: 14.6rem;
+}
+
+body.homePage {
+  background-image: url(../img/home.png);
+  background-position: top;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+@import "grid";
+@import "footer";
+@import "logo";

@@ -1,0 +1,259 @@
+/* start Grid */
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30rem;
+}
+
+.childGol {
+  width: 84px;
+  height: 84px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.child {
+  width: 84px;
+  height: 84px;
+  margin: 1rem;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 10px #888888, inset 0px 0px 15px #5c5c5c;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.childImg img {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.parent .unuA {
+  background-color: rgb(116, 234, 238);
+  &:hover {
+    background-color: rgb(209, 123, 209);
+  }
+}
+
+.parent .doi {
+  background-color: rgb(30, 11, 200);
+  &:hover {
+    background-color: rgb(82, 82, 221);
+  }
+}
+
+.parent .trei {
+  background-color: rgb(109, 224, 224);
+  &:hover {
+    background-color: rgb(60, 211, 85);
+  }
+}
+
+.parent .patru {
+  background-color: rgb(125, 144, 144);
+  &:hover {
+    background-color: rgb(13, 14, 13);
+  }
+}
+
+.parent .cinci {
+  background-color: rgb(185, 240, 240);
+  &:hover {
+    background-color: rgb(32, 98, 43);
+  }
+}
+
+.parent .sase {
+  background-color: rgb(99, 119, 119);
+  &:hover {
+    background-color: rgb(195, 25, 20);
+  }
+}
+
+.parent .sapte {
+  background-color: rgb(46, 124, 124);
+  &:hover {
+    background-color: rgb(148, 195, 20);
+  }
+}
+
+.parent .opt {
+  background-color: rgb(99, 119, 119);
+  &:hover {
+    background-color: rgb(195, 25, 20);
+  }
+}
+
+.parent .noua {
+  background-color: rgb(0, 19, 19);
+  &:hover {
+    background-color: rgb(231, 235, 28);
+  }
+}
+
+.parent .zece {
+  background-color: rgb(255, 0, 0);
+  &:hover {
+    background-color: rgb(224, 218, 218);
+  }
+}
+
+.parent .unuUnu {
+  background-color: rgb(48, 245, 245);
+  &:hover {
+    background-color: rgb(2, 2, 2);
+  }
+}
+
+.parent .unuDoi {
+  background-color: rgb(38, 39, 39);
+  &:hover {
+    background-color: rgb(2, 126, 241);
+  }
+}
+
+.parent .unuTrei {
+  background-color: rgb(170, 86, 7);
+  &:hover {
+    background-color: rgb(61, 25, 23);
+  }
+}
+
+.parent .unuPatru {
+  background-color: rgb(56, 252, 7);
+  &:hover {
+    background-color: rgb(212, 235, 12);
+  }
+}
+
+.parent .unuCinci {
+  background-color: rgba(204, 48, 37, 0.226);
+  &:hover {
+    background-color: rgba(126, 189, 9, 0.397);
+  }
+}
+
+.parent .unuSase {
+  background-color: rgba(166, 243, 248, 0.705);
+  &:hover {
+    background-color: rgba(36, 9, 189, 0.397);
+  }
+}
+
+.parent .unuSapte {
+  background-color: rgba(44, 37, 36, 0.226);
+  &:hover {
+    background-color: rgba(218, 105, 30, 0.397);
+  }
+}
+
+.parent .unuOpt {
+  background-color: rgb(158, 177, 106);
+  &:hover {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+.parent .unuNoua {
+  background-color: rgba(61, 63, 216, 0.979);
+  &:hover {
+    background-color: rgba(71, 71, 71, 0.397);
+  }
+}
+
+.parent .doiZero {
+  background-color: rgb(223, 252, 120);
+  &:hover {
+    background-color: rgba(30, 218, 71, 0.842);
+  }
+}
+
+.parent .doiUnu {
+  background-color: rgb(22, 24, 18);
+  &:hover {
+    background-color: rgb(181, 182, 172);
+  }
+}
+
+.parent .doiDoi {
+  background-color: rgb(160, 120, 252);
+  &:hover {
+    background-color: rgba(190, 218, 30, 0.842);
+  }
+}
+
+.parent .doiTrei {
+  background-color: rgb(120, 252, 138);
+  &:hover {
+    background-color: rgb(150, 98, 98);
+  }
+}
+
+.parent .doiPatru {
+  background-color: rgba(3, 48, 66, 0.226);
+  &:hover {
+    background-color: rgba(20, 247, 255, 0.336);
+  }
+}
+
+.parent .doiCini {
+  background-color: rgb(120, 252, 208);
+  &:hover {
+    background-color: rgba(35, 11, 247, 0.842);
+  }
+}
+
+.parent .doiSase {
+  background-color: rgb(252, 135, 120);
+  &:hover {
+    background-color: rgba(30, 196, 218, 0.842);
+  }
+}
+
+.parent .doiSapte {
+  background-color: rgb(210, 214, 196);
+  &:hover {
+    background-color: rgba(226, 72, 0, 0.842);
+  }
+}
+
+.parent .doiOpt {
+  background-color: rgb(111, 112, 105);
+  &:hover {
+    background-color: rgba(32, 18, 228, 0.842);
+  }
+}
+
+.parent .doiNoua {
+  background-color: rgb(56, 61, 37);
+  &:hover {
+    background-color: rgba(0, 255, 55, 0.842);
+  }
+}
+
+.parent .treiZero {
+  background-color: rgb(255, 5, 5);
+  &:hover {
+    background-color: rgba(0, 17, 255, 0.842);
+  }
+}
+
+.parent .treiUnu {
+  background-color: rgb(55, 172, 104);
+  &:hover {
+    background-color: rgba(255, 0, 212, 0.842);
+  }
+}
+
+.parent .treiDoi {
+  background-color: rgb(255, 5, 213);
+  &:hover {
+    background-color: rgba(0, 17, 255, 0.144);
+  }
+}
+
+/* End Grid */

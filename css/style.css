@@ -163,7 +163,7 @@ body.homePage {
   margin: 1rem;
   border-radius: 7px;
   margin-bottom: 1rem;
-  box-shadow: 5px 5px 10px #888888, inset 0px 0px 15px #5c5c5c;
+  box-shadow: 2px 2px 7px #1d1d1d;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -241,7 +241,7 @@ body.homePage {
 }
 
 .parent .zece {
-  background-color: red;
+  background-color: #0011ff;
 }
 .parent .zece:hover {
   background-color: #e0dada;
@@ -262,21 +262,21 @@ body.homePage {
 }
 
 .parent .unuTrei {
-  background-color: #aa5607;
+  background-color: #f8f8f8;
 }
 .parent .unuTrei:hover {
   background-color: #3d1917;
 }
 
 .parent .unuPatru {
-  background-color: #38fc07;
+  background-color: #07dffc;
 }
 .parent .unuPatru:hover {
   background-color: #d4eb0c;
 }
 
 .parent .unuCinci {
-  background-color: rgba(204, 48, 37, 0.226);
+  background-color: rgba(14, 0, 207, 0.739);
 }
 .parent .unuCinci:hover {
   background-color: rgba(126, 189, 9, 0.397);
@@ -290,14 +290,14 @@ body.homePage {
 }
 
 .parent .unuSapte {
-  background-color: rgba(44, 37, 36, 0.226);
+  background-color: black;
 }
 .parent .unuSapte:hover {
   background-color: rgba(218, 105, 30, 0.397);
 }
 
 .parent .unuOpt {
-  background-color: #9eb16a;
+  background-color: #0831e6;
 }
 .parent .unuOpt:hover {
   background-color: red;
@@ -311,7 +311,7 @@ body.homePage {
 }
 
 .parent .doiZero {
-  background-color: #dffc78;
+  background-color: #23c3f3;
 }
 .parent .doiZero:hover {
   background-color: rgba(30, 218, 71, 0.842);
@@ -325,21 +325,21 @@ body.homePage {
 }
 
 .parent .doiDoi {
-  background-color: #a078fc;
+  background-color: #36f0e6;
 }
 .parent .doiDoi:hover {
   background-color: rgba(190, 218, 30, 0.842);
 }
 
 .parent .doiTrei {
-  background-color: #78fc8a;
+  background-color: #0400eb;
 }
 .parent .doiTrei:hover {
   background-color: #966262;
 }
 
 .parent .doiPatru {
-  background-color: rgba(3, 48, 66, 0.226);
+  background-color: rgba(0, 0, 0, 0.226);
 }
 .parent .doiPatru:hover {
   background-color: rgba(20, 247, 255, 0.336);
@@ -353,49 +353,49 @@ body.homePage {
 }
 
 .parent .doiSase {
-  background-color: #fc8778;
+  background-color: #0cd5e4;
 }
 .parent .doiSase:hover {
   background-color: rgba(30, 196, 218, 0.842);
 }
 
 .parent .doiSapte {
-  background-color: #d2d6c4;
+  background-color: #2422a1;
 }
 .parent .doiSapte:hover {
-  background-color: rgba(226, 72, 0, 0.842);
+  background-color: rgba(25, 143, 197, 0.842);
 }
 
 .parent .doiOpt {
-  background-color: #6f7069;
+  background-color: #03546d;
 }
 .parent .doiOpt:hover {
   background-color: rgba(32, 18, 228, 0.842);
 }
 
 .parent .doiNoua {
-  background-color: #383d25;
+  background-color: #001aff;
 }
 .parent .doiNoua:hover {
   background-color: rgba(0, 255, 55, 0.842);
 }
 
 .parent .treiZero {
-  background-color: #ff0505;
+  background-color: #0ef7ff;
 }
 .parent .treiZero:hover {
   background-color: rgba(0, 17, 255, 0.842);
 }
 
 .parent .treiUnu {
-  background-color: #37ac68;
+  background-color: #030a72;
 }
 .parent .treiUnu:hover {
   background-color: rgba(255, 0, 212, 0.842);
 }
 
 .parent .treiDoi {
-  background-color: #ff05d5;
+  background-color: #0c92bb;
 }
 .parent .treiDoi:hover {
   background-color: rgba(0, 17, 255, 0.144);
@@ -462,7 +462,6 @@ footer .icoana {
   height: 100rem;
   width: 80rem;
   margin: 0 auto;
-  overflow: hidden;
   margin-top: 15rem;
 }
 

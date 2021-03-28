@@ -567,7 +567,7 @@ footer .icoana {
 }
 .contactPage .containerContact .textContact .text2 {
   position: relative;
-  top: 110%;
+  top: 100%;
   left: 200px;
   color: darkcyan;
 }

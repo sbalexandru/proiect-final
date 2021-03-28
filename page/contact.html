@@ -82,6 +82,20 @@
       <div class="textContact">
         <p class="text1">C<span class="oLiter">O</span>NTACT</p>
         <div class="text2">
+          <a href="#" style="font-size: 4rem; color: #4267b2">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i
+          ></a>
+
+          <a
+            href="#"
+            style="font-size: 4rem; margin: 0 7px 0 7px; color: #db4a39"
+          >
+            <i class="fa fa-google-plus-square" aria-hidden="true"></i
+          ></a>
+
+          <a href="#" style="font-size: 4rem; color: #f77737">
+            <i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
           <h3>E-mail</h3>
           <p>vizizebra@yahoo.com</p>
         </div>
@@ -90,7 +104,7 @@
         <p>Looking forward to answering your email</p>
         <br />
         <p>Name *</p>
-        <p id="errName" style="display: none; color: red">Numai Liter</p>
+        <p id="errName" style="opacity: 0; color: red"></p>
         <input type="text" placeholder="Nume Prenume" id="nume" size="30" />
         <p>E-mail *</p>
         <p id="errEmail" style="opacity: 0; color: red"></p>
@@ -98,12 +112,14 @@
         <p>Subject *</p>
         <input type="text" id="subiect" placeholder="Subiect" size="30" />
         <p>Message</p>
+        <p id="errMess" style="opacity: 0; color: red"></p>
         <textarea
           name="Message"
           placeholder="Lasa-mi un mesaj"
           id="text"
           cols="33"
           rows="10"
+          value="30"
         ></textarea>
         <br /><span id="submit" onclick="sendEmail()" class="sendButton"
           >Send</span

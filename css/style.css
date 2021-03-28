@@ -467,5 +467,54 @@ footer .icoana {
 }
 
 /*End Ceruza Rajzok*/
+.contactPage {
+  background-image: url(../img/draws.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 120rem;
+  height: 120rem;
+  margin: 0 auto;
+}
+.contactPage .containerContact {
+  margin-top: 45rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+}
+.contactPage .containerContact .textContact {
+  color: cyan;
+  display: flex;
+  flex-direction: column;
+}
+.contactPage .containerContact .textContact .text1 {
+  font-size: 9rem;
+  position: relative;
+  top: 25%;
+}
+.contactPage .containerContact .textContact .text2 {
+  position: relative;
+  top: 100%;
+  left: 10px;
+  color: darkcyan;
+}
+.contactPage .containerContact .inputContact {
+  font-size: 2rem;
+}
+.contactPage .containerContact .sendButton {
+  border: 1px solid black;
+  border-radius: 7px;
+  position: relative;
+  left: 66%;
+  padding: 6px;
+  cursor: pointer;
+  width: 13rem;
+  height: 12rem;
+  text-align: center;
+  background-color: #15dfe6;
+  color: cornsilk;
+}
 
 /*# sourceMappingURL=style.css.map */

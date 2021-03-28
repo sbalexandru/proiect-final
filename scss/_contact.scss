@@ -1,0 +1,49 @@
+.contactPage {
+  background-image: url(../img/draws.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 120rem;
+  height: 120rem;
+  margin: 0 auto;
+  .containerContact {
+    margin-top: 45rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    .textContact {
+      color: cyan;
+      display: flex;
+      flex-direction: column;
+      .text1 {
+        font-size: 9rem;
+        position: relative;
+        top: 25%;
+      }
+      .text2 {
+        position: relative;
+        top: 100%;
+        left: 10px;
+        color: darkcyan;
+      }
+    }
+    .inputContact {
+      font-size: 2rem;
+    }
+    .sendButton {
+      border: 1px solid black;
+      border-radius: 7px;
+      position: relative;
+      left: 66%;
+      padding: 6px;
+      cursor: pointer;
+      width: 13rem;
+      height: 12rem;
+      text-align: center;
+      background-color: rgb(21, 223, 230);
+      color: cornsilk;
+    }
+  }
+}

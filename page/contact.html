@@ -4,7 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Nothing+You+Could+Do&family=Spinnaker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Contact</title>
   </head>
-  <body></body>
+  <body class="contactPage">
+    <header>
+      <div class="container fixed-top">
+        <div class="brend">
+          <p class="headname">Gordán Ágnes</p>
+          <p class="headocup">Art Designer</p>
+        </div>
+        <ul class="nav nav-pills">
+          <li class="nav-item dropdown">
+            <a class="nav-link active" href="../index.html">Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="logo.html">Logo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Photo</a
+            >
+            <div class="dropdown-menu font">
+              <a class="dropdown-item" href="ceruza-rajzok.html"
+                >Ceruza Rajzok</a
+              >
+              <a class="dropdown-item" href="#">Festmenyek</a>
+              <a class="dropdown-item" href="#">Photo</a>
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="https://www.shutterstock.com/g/vizizebra"
+                >Stock</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >More</a
+            >
+            <div class="dropdown-menu font">
+              <a class="dropdown-item" href="#">Pasion</a>
+              <a class="dropdown-item" href="#">Anima</a>
+              <a class="dropdown-item" href="#">ArtFilm</a>
+              <div class="dropdown-divider"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="containerContact">
+      <div class="textContact">
+        <p class="text1">CONTACT</p>
+        <div class="text2">
+          <h3>E-mail</h3>
+          <p>vizizebra@yahoo.com</p>
+        </div>
+      </div>
+      <div class="inputContact">
+        <p>Looking forward to answering your email</p>
+        <p>Name *</p>
+        <input type="text" />
+        <p>E-mail *</p>
+        <input type="email" name="" id="" />
+        <p>Subject *</p>
+        <input type="text" />
+        <p>Message</p>
+        <textarea name="Message" id="" cols="23" rows="10"></textarea>
+        <br /><span id="" class="sendButton">Send</span>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+  </body>
 </html>

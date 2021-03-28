@@ -455,12 +455,12 @@ footer .icoana {
 /*Start Ceruza Rajzok*/
 .ceruza {
   background-image: url("../img/exhibs.png");
-  background-repeat: no-repeat;
+  background-repeat: space;
+  background-position: top;
   background-position: left;
   min-height: 140rem;
 }
 .ceruza .containerRajz {
-  height: 100rem;
   width: 80rem;
   margin: 0 auto;
   margin-top: 15rem;

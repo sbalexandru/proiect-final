@@ -2,15 +2,14 @@
 
 .ceruza {
   background-image: url("../img/exhibs.png");
-  background-repeat: no-repeat;
+  background-repeat: space;
+  background-position: top;
   background-position: left;
   min-height: 140rem;
 
   .containerRajz {
-    height: 100rem;
     width: 80rem;
     margin: 0 auto;
-    // overflow: hidden;
     margin-top: 15rem;
   }
 }

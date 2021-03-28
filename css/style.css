@@ -485,29 +485,41 @@ footer .icoana {
   align-content: stretch;
 }
 .contactPage .containerContact .textContact {
-  color: cyan;
+  color: #0a698f;
   display: flex;
   flex-direction: column;
 }
 .contactPage .containerContact .textContact .text1 {
+  color: black;
   font-size: 9rem;
   position: relative;
-  top: 25%;
+  top: 29%;
+  font-family: "Train One", cursive;
+}
+.contactPage .containerContact .textContact .text1 .oLiter {
+  color: white;
 }
 .contactPage .containerContact .textContact .text2 {
   position: relative;
-  top: 100%;
-  left: 10px;
+  top: 110%;
+  left: 200px;
   color: darkcyan;
 }
 .contactPage .containerContact .inputContact {
-  font-size: 2rem;
+  font-size: 1.7rem;
+}
+.contactPage .containerContact .inputContact p {
+  margin-top: 6px;
+}
+.contactPage .containerContact .inputContact p input {
+  border-radius: 5px;
+  border: 2px solid black;
 }
 .contactPage .containerContact .sendButton {
   border: 1px solid black;
   border-radius: 7px;
   position: relative;
-  left: 66%;
+  left: 83%;
   padding: 6px;
   cursor: pointer;
   width: 13rem;

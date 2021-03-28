@@ -14,29 +14,41 @@
     align-items: stretch;
     align-content: stretch;
     .textContact {
-      color: cyan;
+      color: rgb(10, 105, 143);
       display: flex;
       flex-direction: column;
       .text1 {
+        color: black;
         font-size: 9rem;
         position: relative;
-        top: 25%;
+        top: 29%;
+        font-family: "Train One", cursive;
+        .oLiter {
+          color: white;
+        }
       }
       .text2 {
         position: relative;
-        top: 100%;
-        left: 10px;
+        top: 110%;
+        left: 200px;
         color: darkcyan;
       }
     }
     .inputContact {
-      font-size: 2rem;
+      font-size: 1.7rem;
+      p {
+        margin-top: 6px;
+        input {
+          border-radius: 5px;
+          border: 2px solid black;
+        }
+      }
     }
     .sendButton {
       border: 1px solid black;
       border-radius: 7px;
       position: relative;
-      left: 66%;
+      left: 83%;
       padding: 6px;
       cursor: pointer;
       width: 13rem;
@@ -46,4 +58,8 @@
       color: cornsilk;
     }
   }
+}
+
+@media (max-width:768px){
+    
 }

@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Nothing+You+Could+Do&family=Spinnaker&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
@@ -75,7 +80,7 @@
 
     <div class="containerContact">
       <div class="textContact">
-        <p class="text1">CONTACT</p>
+        <p class="text1">C<span class="oLiter">O</span>NTACT</p>
         <div class="text2">
           <h3>E-mail</h3>
           <p>vizizebra@yahoo.com</p>
@@ -83,15 +88,20 @@
       </div>
       <div class="inputContact">
         <p>Looking forward to answering your email</p>
+        <br />
         <p>Name *</p>
-        <input type="text" />
+        <p id="errName" style="display: none; color: red">Numai Liter</p>
+        <input type="text" placeholder="Nume Prenume" id="nume" size="30" />
         <p>E-mail *</p>
-        <input type="email" name="" id="" />
+        <p id="errEmail" style="opacity: 0; color: red"></p>
+        <input type="email" id="email" placeholder="E-mail" size="30" />
         <p>Subject *</p>
-        <input type="text" />
+        <input type="text" id="subiect" placeholder="Subiect" size="30" />
         <p>Message</p>
-        <textarea name="Message" id="" cols="23" rows="10"></textarea>
-        <br /><span id="" class="sendButton">Send</span>
+        <textarea name="Message" id="text" cols="33" rows="10"></textarea>
+        <br /><span id="submit" onclick="sendEmail()" class="sendButton"
+          >Send</span
+        >
       </div>
     </div>
 
@@ -102,6 +112,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();

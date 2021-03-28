@@ -13,4 +13,17 @@
     margin-top: 15rem;
   }
 }
+
+@media (max-width: 1024px) {
+  .containerRajz {
+    max-width: 70rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .containerRajz {
+    max-width: 50rem;
+  }
+}
+
 /*End Ceruza Rajzok*/

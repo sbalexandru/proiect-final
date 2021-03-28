@@ -125,6 +125,40 @@ header .container .brend {
   display: block;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100rem;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .container .brend {
+    margin-left: 0;
+  }
+
+  .dropdown {
+    font-size: 1.7rem;
+  }
+
+  .font {
+    font-size: 1.7rem;
+  }
+
+  .headname {
+    font-size: 7rem;
+    margin: 4rem 0.5rem;
+    color: #535353;
+  }
+
+  .headocup {
+    font-size: 1.7rem;
+    color: #535353;
+  }
+}
 /* end header */
 .container1 {
   max-width: 120rem;
@@ -402,6 +436,27 @@ body.homePage {
   background-color: rgba(0, 17, 255, 0.144);
 }
 
+@media (max-width: 1024px) {
+  .parent {
+    margin-left: 20rem;
+  }
+
+  .childGol {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+  }
+
+  .child {
+    width: 64px;
+    height: 64px;
+  }
+
+  .childImg img {
+    width: 64px;
+    height: 64px;
+  }
+}
 /* End Grid */
 /* Start Footer */
 footer {
@@ -422,6 +477,7 @@ footer .icoana {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 /* End footer */
 /* start Logo */
 .logo {
@@ -466,13 +522,23 @@ footer .icoana {
   margin-top: 15rem;
 }
 
+@media (max-width: 1024px) {
+  .containerRajz {
+    max-width: 70rem;
+  }
+}
+@media (max-width: 768px) {
+  .containerRajz {
+    max-width: 50rem;
+  }
+}
 /*End Ceruza Rajzok*/
+/* Start Contact Page*/
 .contactPage {
   background-image: url(../img/draws.png);
   background-position: top;
   background-repeat: no-repeat;
   width: 120rem;
-  height: 120rem;
   margin: 0 auto;
 }
 .contactPage .containerContact {
@@ -511,15 +577,12 @@ footer .icoana {
 .contactPage .containerContact .inputContact p {
   margin-top: 6px;
 }
-.contactPage .containerContact .inputContact p input {
-  border-radius: 5px;
-  border: 2px solid black;
-}
 .contactPage .containerContact .sendButton {
   border: 1px solid black;
   border-radius: 7px;
   position: relative;
-  left: 83%;
+  margin-top: 15px;
+  left: 80%;
   padding: 6px;
   cursor: pointer;
   width: 13rem;
@@ -527,6 +590,94 @@ footer .icoana {
   text-align: center;
   background-color: #15dfe6;
   color: cornsilk;
+}
+
+@media (max-width: 1024px) {
+  .contactPage {
+    background-image: url(../img/draws1024.jpg);
+    width: 100rem;
+    height: 100rem;
+    overflow-x: hidden;
+  }
+  .contactPage .containerContact {
+    margin-top: 35rem;
+    flex-direction: column;
+  }
+  .contactPage .containerContact .textContact {
+    flex-direction: column;
+  }
+  .contactPage .containerContact .textContact .text1 {
+    font-size: 7rem;
+    top: 19%;
+    text-align: center;
+  }
+  .contactPage .containerContact .textContact .text1 .oLiter {
+    color: #dfd9c0;
+  }
+  .contactPage .containerContact .textContact .text2 {
+    display: none;
+  }
+  .contactPage .containerContact .inputContact {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  .contactPage .containerContact .inputContact p {
+    margin-top: 6px;
+  }
+  .contactPage .containerContact .sendButton {
+    position: static;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .contactPage {
+    background-image: url(../img/draws768.jpg);
+    width: 70rem;
+    height: 70rem;
+    overflow-x: hidden;
+  }
+  .contactPage .containerContact {
+    margin-top: 25rem;
+    flex-direction: column;
+  }
+  .contactPage .containerContact .textContact {
+    flex-direction: column;
+  }
+  .contactPage .containerContact .textContact .text1 {
+    font-size: 7rem;
+    top: 19%;
+    text-align: center;
+  }
+  .contactPage .containerContact .textContact .text1 .oLiter {
+    color: #dfd9c0;
+  }
+  .contactPage .containerContact .textContact .text2 {
+    display: none;
+  }
+  .contactPage .containerContact .inputContact {
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+  .contactPage .containerContact .inputContact p {
+    margin-top: 6px;
+  }
+  .contactPage .containerContact .sendButton {
+    position: static;
+    margin-left: 40px;
+  }
+}
+/* End Contact Page*/
+@media (max-width: 1024px) {
+  .container1 {
+    max-width: 100rem;
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 768px) {
+  .container1 {
+    max-width: 70rem;
+    margin-top: 3rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,9 +1,9 @@
+/* Start Contact Page*/
 .contactPage {
   background-image: url(../img/draws.png);
   background-position: top;
   background-repeat: no-repeat;
-  width: 120rem;
-  height: 120rem;
+  width: 120rem;  
   margin: 0 auto;
   .containerContact {
     margin-top: 45rem;
@@ -38,17 +38,14 @@
       font-size: 1.7rem;
       p {
         margin-top: 6px;
-        input {
-          border-radius: 5px;
-          border: 2px solid black;
-        }
       }
     }
     .sendButton {
       border: 1px solid black;
       border-radius: 7px;
       position: relative;
-      left: 83%;
+      margin-top: 15px;
+      left: 80%;
       padding: 6px;
       cursor: pointer;
       width: 13rem;
@@ -60,6 +57,81 @@
   }
 }
 
-@media (max-width:768px){
-    
+@media (max-width: 1024px) {
+  .contactPage {
+    background-image: url(../img/draws1024.jpg);
+    width: 100rem;
+    height: 100rem;
+    overflow-x: hidden;
+    .containerContact {
+      margin-top: 35rem;
+      flex-direction: column;
+
+      .textContact {
+        flex-direction: column;
+        .text1 {
+          font-size: 7rem;
+          top: 19%;
+          text-align: center;
+          .oLiter {
+            color: rgb(223, 217, 192);
+          }
+        }
+        .text2 {
+          display: none;
+        }
+      }
+      .inputContact {
+        margin: 0 auto;
+        font-size: 1rem;
+        p {
+          margin-top: 6px;
+        }
+      }
+      .sendButton {
+        position: static;
+        margin-left: 40px;
+      }
+    }
+  }
 }
+
+@media (max-width: 768px) {
+  .contactPage {
+    background-image: url(../img/draws768.jpg);
+    width: 70rem;
+    height: 70rem;
+    overflow-x: hidden;
+    .containerContact {
+      margin-top: 25rem;
+      flex-direction: column;
+
+      .textContact {
+        flex-direction: column;
+        .text1 {
+          font-size: 7rem;
+          top: 19%;
+          text-align: center;
+          .oLiter {
+            color: rgb(223, 217, 192);
+          }
+        }
+        .text2 {
+          display: none;
+        }
+      }
+      .inputContact {
+        margin: 0 auto;
+        font-size: 1rem;
+        p {
+          margin-top: 6px;
+        }
+      }
+      .sendButton {
+        position: static;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+/* End Contact Page*/

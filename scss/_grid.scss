@@ -263,4 +263,25 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .parent {
+    margin-left: 20rem;
+  }
+
+  .childGol {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+  }
+
+  .child {
+    width: 64px;
+    height: 64px;
+  }
+
+  .childImg img {
+    width: 64px;
+    height: 64px;
+  }
+}
 /* End Grid */

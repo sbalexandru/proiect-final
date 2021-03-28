@@ -23,3 +23,16 @@ body.homePage {
 @import "logo";
 @import "ceruzaRajzok";
 @import "contact";
+
+@media (max-width: 1024px) {
+  .container1 {
+    max-width: 100rem;
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 768px) {
+  .container1 {
+    max-width: 70rem;
+    margin-top: 3rem;
+  }
+}

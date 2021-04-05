@@ -2,26 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ceruza Rajzok</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Nothing+You+Could+Do&family=Spinnaker&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Train+One&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Contact</title>
   </head>
-  <body class="contactPage">
+
+  <body>
     <header>
-      <div class="container fixed-top">
+      <div
+        class="container fixed-top"
+        style="background-color: white; opacity: 0.8"
+      >
         <div class="brend">
           <p class="headname">Gordán Ágnes</p>
           <p class="headocup">Art Designer</p>
@@ -31,7 +29,7 @@
             <a class="nav-link active" href="../index.html">Me</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="logo.html">Logo</a>
+            <a class="nav-link" href="./logo.html">Logo</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -44,7 +42,7 @@
               >Photo</a
             >
             <div class="dropdown-menu font">
-              <a class="dropdown-item" href="ceruza-rajzok.html"
+              <a class="dropdown-item" href="page/ceruza-rajzok.html"
                 >Ceruza Rajzok</a
               >
               <a class="dropdown-item" href="#">Festmenyek</a>
@@ -69,63 +67,68 @@
             >
             <div class="dropdown-menu font">
               <a class="dropdown-item" href="#">Pasion</a>
-              <a class="dropdown-item" href="../page/anima.html">Anima</a>
+
               <a class="dropdown-item" href="#">ArtFilm</a>
               <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="./contact.html">Contact</a>
             </div>
           </li>
         </ul>
       </div>
     </header>
 
-    <div class="containerContact">
-      <div class="textContact">
-        <p class="text1">C<span class="oLiter">O</span>NTACT</p>
-        <div class="text2">
-          <a href="#" style="font-size: 4rem; color: #4267b2">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i
-          ></a>
+    <div class="anima">
+      <!-- <div class="container1">dasdasdasd
 
-          <a
-            href="#"
-            style="font-size: 4rem; margin: 0 7px 0 7px; color: #db4a39"
-          >
-            <i class="fa fa-google-plus-square" aria-hidden="true"></i
-          ></a>
+        </div> -->
+    </div>
 
-          <a href="#" style="font-size: 4rem; color: #f77737">
-            <i class="fa fa-instagram" aria-hidden="true"></i
-          ></a>
-          <h3>E-mail</h3>
-          <p>vizizebra@yahoo.com</p>
+    <footer>
+      <div class="container1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="icoana">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <p>Contact</p>
+              <a href="#">vizizebra@yahoo.com</a>
+            </div>
+            <div class="col">
+              <div class="icoana">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+              </div>
+              <p>Follow Me on</p>
+              <div class="row">
+                <p></p>
+
+                <a href="#" style="font-size: 4rem; color: #4267b2">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i
+                ></a>
+
+                <a
+                  href="#"
+                  style="font-size: 4rem; margin: 0 7px 0 7px; color: #db4a39"
+                >
+                  <i class="fa fa-google-plus-square" aria-hidden="true"></i
+                ></a>
+
+                <a href="#" style="font-size: 4rem; color: #f77737">
+                  <i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="icoana">
+                <i class="fa fa-copyright" aria-hidden="true"></i>
+              </div>
+              <p>Create By</p>
+              <a href="#">Sabau Alexandru</a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="inputContact">
-        <p>Looking forward to answering your email</p>
-        <br />
-        <p>Name *</p>
-        <p id="errName" style="opacity: 0; color: red"></p>
-        <input type="text" placeholder="Nume Prenume" id="nume" size="30" />
-        <p>E-mail *</p>
-        <p id="errEmail" style="opacity: 0; color: red"></p>
-        <input type="email" id="email" placeholder="E-mail" size="30" />
-        <p>Subject *</p>
-        <input type="text" id="subiect" placeholder="Subiect" size="30" />
-        <p>Message</p>
-        <p id="errMess" style="opacity: 0; color: red"></p>
-        <textarea
-          name="Message"
-          placeholder="Lasa-mi un mesaj"
-          id="text"
-          cols="33"
-          rows="10"
-          value="30"
-        ></textarea>
-        <br /><span id="submit" onclick="sendEmail()" class="sendButton"
-          >Send</span
-        >
-      </div>
-    </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
@@ -133,8 +136,7 @@
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
       crossorigin="anonymous"
     ></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script>
       $(function () {
         $('[data-toggle="tooltip"]').tooltip();

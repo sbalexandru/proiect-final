@@ -514,10 +514,9 @@ footer .icoana {
   background-repeat: space;
   background-position: top;
   background-position: left;
-  min-height: 140rem;
 }
 .ceruza .containerRajz {
-  width: 80rem;
+  width: 90rem;
   margin: 0 auto;
   margin-top: 15rem;
 }
@@ -667,6 +666,18 @@ footer .icoana {
   }
 }
 /* End Contact Page*/
+/* Start Anima page */
+.anima {
+  background-image: url(../img/cupon.png);
+  background-position: top;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* End Anima page */
 @media (max-width: 1024px) {
   .container1 {
     max-width: 100rem;

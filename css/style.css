@@ -677,6 +677,52 @@ footer .icoana {
   min-height: 100vh;
 }
 
+.vparinte {
+  margin-top: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.vparinte .vcild {
+  width: 24rem;
+  height: 22rem;
+  border-style: double;
+  border-radius: 5px;
+  background-color: black;
+  box-shadow: 2px 2px 7px #1d1d1d, 5px 5px 10px #1d1d1d;
+  margin: 50px;
+  padding: 5px;
+}
+
+@media (max-width: 1024px) {
+  .vparinte .vcild {
+    width: 21rem;
+    height: 18rem;
+    margin: 20px;
+  }
+  .vparinte iframe {
+    width: 190px;
+    height: 170px;
+  }
+}
+@media (max-width: 768px) {
+  .vparinte {
+    margin-left: 50px;
+    margin-top: 110px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .vparinte .vcild {
+    width: 17rem;
+    height: 14rem;
+  }
+  .vparinte iframe {
+    width: 150px;
+    height: 130px;
+  }
+}
 /* End Anima page */
 @media (max-width: 1024px) {
   .container1 {

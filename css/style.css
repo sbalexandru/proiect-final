@@ -724,6 +724,109 @@ footer .icoana {
   }
 }
 /* End Anima page */
+/*Start ArtFilm*/
+.artfilm {
+  background-image: url(../img/retus.png);
+  background-position: top;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.artParent {
+  height: 85rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.artParent .artCild {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.artParent .artCild1 {
+  position: absolute;
+  top: 10rem;
+}
+.artParent .artCild2 {
+  position: absolute;
+  top: 25rem;
+  right: 30px;
+}
+.artParent .artCild3 {
+  position: absolute;
+  top: 45rem;
+}
+.artParent .artCild4 {
+  position: absolute;
+  top: 55rem;
+  left: 30px;
+}
+
+.artParent1 {
+  height: 95rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.artParent1 .artCild5 {
+  position: absolute;
+  top: 3rem;
+  left: 30px;
+}
+.artParent1 .artCild6 {
+  position: absolute;
+  top: 15rem;
+}
+.artParent1 .artCild7 {
+  position: absolute;
+  top: 30rem;
+  right: 30px;
+}
+.artParent1 .artCild8 {
+  position: absolute;
+  top: 50rem;
+}
+.artParent1 .artCild9 {
+  position: absolute;
+  top: 65rem;
+  left: 30px;
+}
+
+.artParent2 {
+  height: 45rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.artParent2 .artCild10 {
+  position: absolute;
+  top: 3rem;
+  left: 30px;
+}
+.artParent2 .artCild11 {
+  position: absolute;
+  top: 15rem;
+}
+.artParent2 .artCild12 {
+  position: absolute;
+  top: 30rem;
+  right: 30px;
+}
+
+iframe {
+  box-shadow: 5px 5px 10px black, 2px 2px 7px black;
+}
+
+/*End ArtFilm*/
 @media (max-width: 1024px) {
   .container1 {
     max-width: 100rem;

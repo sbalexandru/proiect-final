@@ -207,7 +207,7 @@ body.homePage {
   position: relative;
   width: 84px;
   height: 84px;
-  box-shadow: 5px 10px 18px #888888;
+  box-shadow: 2px 2px 7px #1d1d1d;
   border-radius: 7px;
   margin: 10px;
 }
@@ -308,13 +308,6 @@ body.homePage {
 }
 .parent .unuPatru:hover {
   background-color: #d4eb0c;
-}
-
-.parent .unuCinci {
-  background-color: rgba(14, 0, 207, 0.739);
-}
-.parent .unuCinci:hover {
-  background-color: rgba(126, 189, 9, 0.397);
 }
 
 .parent .unuSase {
@@ -505,6 +498,14 @@ footer .icoana {
 .contactLogo a {
   direction: unset;
   text-decoration: unset;
+}
+
+.imgLogo {
+  width: 84px;
+  height: 84px;
+  box-shadow: 2px 2px 7px #1d1d1d;
+  border-radius: 7px;
+  margin: 10px;
 }
 
 /* end Logo */
@@ -943,6 +944,12 @@ iframe {
   }
 }
 /*End ArtFilm*/
+/* Start Photo page */
+/* End Photo page */
+/* Start Festmenyek page */
+/* End Festmenyek page */
+/* Start Pasion page */
+/* End Pasion page */
 @media (max-width: 1024px) {
   .container1 {
     max-width: 100rem;

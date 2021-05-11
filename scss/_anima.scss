@@ -2,8 +2,7 @@
 
 .anima {
   background-image: url(../img/cupon.png);
-  background-position: top;
-  background-position: left;
+  background-position: left top;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,7 +10,7 @@
 }
 
 .vparinte {
-  margin-top: 15rem;
+  margin-top: 10rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

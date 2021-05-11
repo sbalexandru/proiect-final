@@ -74,7 +74,6 @@ ol {
 /* start Header */
 header {
   background-color: transparent;
-  padding: 0.5rem 0;
 }
 
 .container {
@@ -164,7 +163,7 @@ header .container .brend {
   max-width: 120rem;
   padding: 0 1.5rem;
   margin: 0 auto;
-  margin-top: 14.6rem;
+  padding-top: 14.6rem;
 }
 
 body.homePage {
@@ -501,8 +500,8 @@ footer .icoana {
 }
 
 .imgLogo {
-  width: 84px;
-  height: 84px;
+  width: 64px;
+  height: 64px;
   box-shadow: 2px 2px 7px #1d1d1d;
   border-radius: 7px;
   margin: 10px;
@@ -670,8 +669,7 @@ footer .icoana {
 /* Start Anima page */
 .anima {
   background-image: url(../img/cupon.png);
-  background-position: top;
-  background-position: left;
+  background-position: left top;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -679,7 +677,7 @@ footer .icoana {
 }
 
 .vparinte {
-  margin-top: 15rem;
+  margin-top: 10rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -728,8 +726,7 @@ footer .icoana {
 /*Start ArtFilm*/
 .artfilm {
   background-image: url(../img/retus.png);
-  background-position: top;
-  background-position: left;
+  background-position: top left;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -945,10 +942,43 @@ iframe {
 }
 /*End ArtFilm*/
 /* Start Photo page */
+.containerPhoto {
+  background-image: url(../img/photo.png);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /* End Photo page */
 /* Start Festmenyek page */
+.festmeny {
+  background-image: url("../img/labels.png");
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #1ac6ff;
+}
+
 /* End Festmenyek page */
 /* Start Pasion page */
+.pasion {
+  background-image: url(../img/adverts.png);
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #e6f9ff;
+}
+
+.containerPasin {
+  max-width: 120rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  padding-top: 24rem;
+}
+
 /* End Pasion page */
 @media (max-width: 1024px) {
   .container1 {

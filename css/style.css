@@ -556,8 +556,9 @@ footer .icoana {
 /* Start Contact Page*/
 .contactPage {
   background-image: url(../img/draws.png);
-  background-position: top;
+  background-position: left top;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 120rem;
   margin: 0 auto;
 }
@@ -583,7 +584,7 @@ footer .icoana {
   font-family: "Train One", cursive;
 }
 .contactPage .containerContact .textContact .text1 .oLiter {
-  color: white;
+  color: #e6ffff;
 }
 .contactPage .containerContact .textContact .text2 {
   position: relative;
@@ -652,8 +653,8 @@ footer .icoana {
 @media (max-width: 768px) {
   .contactPage {
     background-image: url(../img/draws768.jpg);
-    width: 70rem;
-    height: 70rem;
+    width: auto;
+    height: auto;
     overflow-x: hidden;
   }
   .contactPage .containerContact {

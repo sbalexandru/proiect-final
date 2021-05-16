@@ -9,6 +9,9 @@ footer {
     height: 17rem;
     margin-top: 24rem;
     padding-top: 2rem;
+    @media (max-width: 760px) {
+      margin-top: 0;
+    }
   }
   .icoana {
     border-radius: 50%;
@@ -19,4 +22,11 @@ footer {
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 500px) {
+  .resize {
+    display: none;
+  }
+}
+
 /* End footer */

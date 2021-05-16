@@ -10,6 +10,9 @@
   height: 84px;
   margin: 10px;
   border-radius: 7px;
+  @media (max-width: 760px) {
+    display: none;
+  }
 }
 
 .child {
@@ -282,6 +285,12 @@
   .childImg img {
     width: 64px;
     height: 64px;
+  }
+}
+@media (max-width: 760px) {
+  .parent {
+    margin-left: 20px;
+    display: flex;
   }
 }
 /* End Grid */

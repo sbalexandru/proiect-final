@@ -106,7 +106,7 @@ header .container .brend {
 .dropdown:hover {
   background-color: blue;
   box-shadow: black 2px 2px 5px;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .headname {
@@ -188,6 +188,11 @@ body.homePage {
   height: 84px;
   margin: 10px;
   border-radius: 7px;
+}
+@media (max-width: 760px) {
+  .childGol {
+    display: none;
+  }
 }
 
 .child {
@@ -449,6 +454,12 @@ body.homePage {
     height: 64px;
   }
 }
+@media (max-width: 760px) {
+  .parent {
+    margin-left: 20px;
+    display: flex;
+  }
+}
 /* End Grid */
 /* Start Footer */
 footer {
@@ -462,6 +473,11 @@ footer .container1 {
   margin-top: 24rem;
   padding-top: 2rem;
 }
+@media (max-width: 760px) {
+  footer .container1 {
+    margin-top: 0;
+  }
+}
 footer .icoana {
   border-radius: 50%;
   width: 3.3rem;
@@ -470,6 +486,11 @@ footer .icoana {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 500px) {
+  .resize {
+    display: none;
+  }
+}
 /* End footer */
 /* start Logo */
 .logo {
